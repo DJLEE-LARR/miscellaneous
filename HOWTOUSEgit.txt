@@ -1,0 +1,39 @@
+------------------------------------------------
+INSTALLATION
+------------------------------------------------
+1.  sudo apt-get install update
+2.  sudo apt-get install git
+3.  git --version: to check if git is installed well
+
+------------------------------------------------
+USAGE
+------------------------------------------------
+4.  git config --global user.name "username"	: username setting
+5.  git config --global user.email "email"		: useremail setting
+6.  mkdir ~/mygit, cd ~/mygit					: local directory generation
+7.  git init									: ??
+8.  git status									: check git status
+9.  vi hello.txt, git status					: can find hello.txt in untracked file 						
+10. git add hello.txt, git status				: can find hello.txt in commited file
+11. git commit -m "explanation"					: ??
+12. git remote add "remote_repo_name" https://github.com/"username"/"repositoryname"	: register remote repository name
+( git remote remove "remote_repo_name"			: delete the "renote_repo_name")
+13. git push "remote_repo_name" master			: connect local and remote repository
+( git push -u "remote_repo_name" master			: if this is the first push)
+
+frequently used: git add "file name", git commit -m "commit message", git push "remote_repo_name" master
+
+------------------------------------------------
+COMMAND
+------------------------------------------------
+git remote	: manage remote repository
+git push	: commit to remote repository
+git pull	: download remote repository to local repository(client) e.g. git pull origin master
+git clone	: download remote repository when there's no client
+
+------------------------------------------------
+REFERENCE
+------------------------------------------------
+1. https://www.zerocho.com/category/Git/post/581042fdcae2d100152ceae6
+2. https://gist.github.com/godori/355391c91d2f6725aee8f273f095e87c
+
