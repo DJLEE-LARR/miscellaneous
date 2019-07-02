@@ -1,0 +1,39 @@
+git: client, github: server
+
+--------------------------------------------------------
+INSTALLATION
+--------------------------------------------------------
+1. git --version  : check if intsalled
+2. sudo apt-get install update, sudo apt-get install git
+3. git config --global user.name "username"
+4. git config --global user.email "email@~.com"
+5. mkdir ~/mygit, cd mygit  : directory generation
+6. git init
+
+--------------------------------------------------------
+USAGE (location: ~/mygit)
+--------------------------------------------------------
+1. vi hello.txt, git status : untracked file
+2. git add hello.txt, git status  : committed
+3. git commit -m "message"  
+4. git remote add "local_repo" https://github.com/username/reponame.git
+5. git remote -v  : shows all remote repositories
+6. git push "local_repo" master 
+(git push -u "local_repo" master (if this is the first push))
+
+(frequently used)
+git add "file name"
+git commit -m "commit message"
+--------------------------------------------------------
+COMMAND
+--------------------------------------------------------
+1. git status
+2. git add
+3. git commit
+4. git remote
+
+--------------------------------------------------------
+REFERENCE
+--------------------------------------------------------
+1. https://www.zerocho.com/category/Git/post/58045dbc146be6001542a465
+2. https://gist.github.com/godori/355391c91d2f6725aee8f273f095e87c
