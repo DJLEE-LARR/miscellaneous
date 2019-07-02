@@ -16,10 +16,10 @@ USAGE (location: ~/mygit)
 1. vi hello.txt, git status : untracked file
 2. git add hello.txt, git status  : committed
 3. git commit -m "message"  
-4. git remote add "local_repo" https://github.com/username/reponame.git
+4. git remote add "remote_repo" https://github.com/username/reponame.git
 5. git remote -v  : shows all remote repositories
-6. git push "local_repo" master 
-(git push -u "local_repo" master (if this is the first push))
+6. git push "remote_repo" master 
+(git push -u "remote_repo" master (if this is the first push))
 
 (frequently used)
 git add "file name"
@@ -29,9 +29,14 @@ COMMAND
 --------------------------------------------------------
 1. git status
 2. git add
-3. git commit
+  2.1. git rm : return added file to untracked file
+3. git commit : to local repository, only committed files can be stored in git
+  3.1. git commit -am "commit message"  : add + commit
 4. git remote
-
+5. git log
+6. git push : to remote repository
+7. git pull
+8. git clone
 --------------------------------------------------------
 REFERENCE
 --------------------------------------------------------
