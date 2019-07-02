@@ -39,6 +39,11 @@ COMMAND
 7. git pull
 8. git clone
 
+git push "remote_repo" master -f : forcefully push
+
+9. git branch "branch_name"
+10. git checkout "branch_name"	: go to "branch_name"
+
 --------------------------------------------------------
 REFERENCE
 --------------------------------------------------------
