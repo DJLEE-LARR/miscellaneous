@@ -24,6 +24,7 @@ USAGE (location: ~/mygit)
 (frequently used)
 git add "file name"
 git commit -m "commit message"
+
 --------------------------------------------------------
 COMMAND
 --------------------------------------------------------
@@ -37,6 +38,7 @@ COMMAND
 6. git push : to remote repository
 7. git pull
 8. git clone
+
 --------------------------------------------------------
 REFERENCE
 --------------------------------------------------------
