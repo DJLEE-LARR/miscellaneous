@@ -1,0 +1,4 @@
+/* how to forget a wifi in ubuntu*/
+
+cd /etc/NetworkManager/system-connections/
+rm icsl_iptime5G
