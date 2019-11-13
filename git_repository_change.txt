@@ -1,0 +1,21 @@
+-----------------------------------------------------
+Assumption
+-----------------------------------------------------
+1. my repository:		https://github.com/mine
+2. other repository:	https://github.com/others
+
+-----------------------------------------------------
+Order
+-----------------------------------------------------
+1. In other's repository, write 
+	git clone --mirror https://github.com/mine
+=> way to my repository is created.
+
+2. git push --mirror
+=> every file and commit record is moved to my repository.
+
+-----------------------------------------------------
+Reference
+-----------------------------------------------------
+https://zeddios.tistory.com/5
+
