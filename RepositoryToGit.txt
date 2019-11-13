@@ -1,0 +1,12 @@
+git init
+git add .
+git commit -m "first commit"
+git remote add origin <<repository url>>.git
+git push origin master
+
+git id/password
+
+---------------------------------------------------
+reference
+---------------------------------------------------
+https://cpdev.tistory.com/60
