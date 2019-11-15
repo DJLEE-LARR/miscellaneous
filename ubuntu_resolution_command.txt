@@ -1,0 +1,8 @@
+Type sudo vi /etc/default/grub.
+Find GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
+Append that line with video=hyperv_fb:[specify resolution, e.g. 1024x768]
+
+------------------------------------------------
+reference
+------------------------------------------------
+https://virtualizationreview.com/blogs/virtual-insider/2014/09/change-ubuntu-resolution-on-hyper-v-vm.aspx
